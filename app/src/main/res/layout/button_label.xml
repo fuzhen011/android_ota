@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/board">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_2_click_button_to_start_ota"
+            android:textSize="20sp"
+            android:background="@drawable/board"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/board">
+
+            <Button
+                android:id="@+id/ota_stack_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/ota_stack"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                style="@android:style/Widget.Button.Small"/>
+
+            <Button
+                android:id="@+id/ota_app_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:text="@string/ota_application"
+                android:textColor="@color/colorPrimary"
+                style="@android:style/Widget.Button.Small"/>
+        </LinearLayout>
+</LinearLayout>

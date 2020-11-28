@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">OTA</string>
+    <string name="ble_not_supported">BLE NOT SUPPORTED!</string>
+    <string name="ble_manager_not_found">BLE Manager Not Found</string>
+    <string name="ble_scanner_not_found">BLE Scanner Not Found</string>
+    <string name="_1_input_target_device_address">1. Device Address</string>
+    <string name="xx_xx_xx_xx_xx_xx">XX:XX:XX:XX:XX:XX</string>
+    <string name="_00_0b_57_1c_fa_43">00:0B:57:1C:FA:43</string>
+    <string name="_2_click_button_to_start_ota">2. Click Button to Start OTA</string>
+    <string name="ota_stack">Start</string>
+    <string name="ota_application">Stop</string>
+    <string name="ota_information">OTA Information</string>
+    <string name="total_size">Total Size</string>
+    <string name="total_time">Total Time</string>
+    <string name="ota_progress">OTA Progress:</string>
+    <string name="data_rate">Data Rate:</string>
+    <string name="state_information">State Information</string>
+    <string name="file_format">File Format: </string>
+    <string name="gbl">GBL</string>
+    <string name="ebl">EBL</string>
+</resources>
